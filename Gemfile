@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem "inherited_resources", github: "josevalim/inherited_resources", branch: "rails-4-2"
+
 require File.expand_path 'spec/support/detect_rails_version', File.dirname(__FILE__)
 
 rails_version = detect_rails_version
